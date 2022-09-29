@@ -1,0 +1,92 @@
+Tipos de Dados
+1-Numéricos:
+	-inteiros:0,1,2,3...
+	-reais:0,2;1,3;1,02...
+	-caracteres:?;a;#;&...
+	-lógicos(booleanos):verdadeiro=1
+			    falso=0
+
+Variável= estrutura mutável, instavel que recebe um tipo de dado.
+"Regras"
+-um ou mais caracteres
+-vedado
+-sem espaço em branco
+-primeiro letra não número 
+
+*Podemos usar uma variável no lugar de uma constate.
+
+Unário= Sinal de transitp
+Binário= Todas as outras operações
+
+Instrução determina a ação que vai processar.
+
+Vantagens da estrutura de repetição:
+-diminuição de linhas
+-compreenção fácil
+- redução de erros
+
+É possivel mesclar estruturas de repetição diferentes!
+
+Vetores e Matrizes
+
+nota_aluno = [10,5] ---> matriz
+
+10 e 5 vetor
+
+Vantagem é a diminuição de linhas
+
+Funções são blocos de instrução que realizam tarefas específicas(identificado por nome e parametros)
+
+Modularização do programa
+Altera o estado do programa
+
+
+Primeira linguagem de programação
+1-Assembly
+2-Cobol
+3-Fortram
+4-Lisp
+5-C
+6-Prolog
+7-python  ALTO NÍVEL
+ -Ruby
+ -Java
+ -Java Script
+ -C#
+
+Compilação = tradução
+
+Análise Léxica--> 1 fase
+Scaner-leitura do programa fonte  TOKENS
+Análise Sintática
+A forma definida
+Análise semântica
+estudo do significado
+ex:palavra, frase, simbolo
+escrita da linguagem correta
+
+Paradgma estruturado
+conceito:sequência
+         decisão
+         iteração
+ex:C
+
+utilizado para problemas simples
+
+
+Orientação ao objeto
+-atributos- o que tenho
+-métodos- sou capaz de fazer
+-estados- como faço
+
+utiliza classes!
+
+Pilares da POO
+
+-Herança(clase mãe e filha)
+-Encapsulamento
+-Polimorfismo
+-Abstração
+
+Poo --> reuso de código
+PE --> problemas específicos
