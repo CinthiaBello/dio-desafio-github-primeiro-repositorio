@@ -1,0 +1,139 @@
+Git - Sistema de versionamento de código distribuído.
+
+Linus Torvalds - criador do Linux
+
+Git != GitHub
+
+Git é totalmente aberta!
+GitHub pode conter alguns planos.
+
+Benefícios:
+1-Controle de versão
+2-Armazenamento em nuvem
+3-Trabalho em equipe
+4-Melhoramento do código
+5-reconhecimento
+
+GitHub tmb é uma rede social!
+
+Git é um CLI - comand line interface que é diferente de GUI - grafic user interface
+Ou seja linha de comandos.
+
+Comandos basicos do Git
+
+windows
+dir= lista diretórios 
+
+Linux
+ls= lista diretórios
+
+change directory
+cd/ --> vai para o diretório C
+
+Para pastas específicas:
+ex: cd windows/
+
+cd.. volta para o diretório anterior 
+
+limpar tela:
+
+cls - windows
+clear - linux
+
+ou ctrl+l
+TAB- AUTO COMPLETAR
+
+Criando pasta/diretório
+mkdir (nome da pasta)
+
+criando arquivo dentro da pasta
+windows
+echo hello
+echo hello> hello.txt
+
+linux
+echo hello> hello.txt
+
+Deletar no windows
+del (nome da pasta)--> deleta apenas arquivo
+rmdir (nome da pasta) /s /q -->remove repositório
+
+Deletar no Linux 
+rm (nome da pasta)
+
+GH- scm.com
+
+sha1 - Algoritmo de encriptação
+Encriptação gera um conjunto de caracteresidentificador de 40 digitos
+-identifica o arquivo de forma segura
+-forma curta de representar um arquivo
+
+openssl sha1 texto.txt
+
+3 objetos básicos do Git
+1- Blob
+2- tree
+3- commits
+
+Blob(bolha)
+Tem: nome;tamanho;\0;conteúdo
+
+Somente o sha do arquivo!
+Contem meta dados do objeto.
+
+Tree(Arvore)
+Armazena as blob
+Tem:\0;blob;nome;sha
+
+Uma arvore pode apontar para outra arvore
+
+Commit(objeto chave)
+Junta tudo!
+Tem:Tree;parente;autor;mensagem;timetamp
+
+Sistema distribuido seguro.
+
+Os arquivos transitam entre o Work directory e o Staging area.
+Qnd comitado, tira o arquivo de ataging area e manda para o Local Repository
+
+O compositório local é composto por commits!
+
+git status >> para saber o status do arquivo
+mv strogonoff.md ./receitas/ >> mover arquivo
+
+gitconfig --list >>para listar todas as configurações do seu git
+como alterar o e-mail e nome do seu git:
+git config --global --inset user.email 
+git config --global --inset user.name
+
+git remote add origi (linkdo github)
+
+git remote -v >> para listar
+
+Para enviar para o local remoto(GitHub)
+git push origin master
+git pull master >> puxa repositório
+
+Conflitos de Merge
+Para resolver abre resolve comita o arquivo
+
+Clonando um aruivo do GitHub
+git clone (link copiado da github)
+
+Chave ssh estabelece uma forma segura e encriptada 
+Criando a chave
+ssh-keygen -t ed25519 -c (email pessoal)
+Pegando a chave publica
+cat id_ed25519pub
+eval $(ssh-agent-s)>> gera agente
+ssh-add id_ed125519(privada)
+Token de acesso pessoal
+
+Add arquivo
+Markdown >> "Forma humana de escrever" .md
+
+Ciclo
+
+untracked     tracked:-unmodified-ainda não modificada
+                      -modified-já modificada
+                      -staged-Arquivos que estão se preparando.Esperando.
